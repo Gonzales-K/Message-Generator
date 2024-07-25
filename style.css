@@ -1,0 +1,23 @@
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    place-content: center;
+    min-height: 90vh;
+}
+
+button {
+    min-height: 50px;
+    min-width: 200px;
+    border-color: rgb(151, 67, 235);
+    border-radius: 10px;
+    background-color: rgb(235, 213, 140);
+    font-size: large;
+    font-weight: bold;
+    color: rgb(151, 67, 235);
+}
