@@ -14,10 +14,8 @@ function generateCreature(){
     const tail = tails[randNumber()];
     return `Your creature has the head of a ${head}, body of a ${body}, and tail of a ${tail}.`
 }
-console.log(generateCreature())  //works to here
 
 creatureButton.addEventListener("click", function(){
     let creature = generateCreature();
     output.innerHTML = creature;
-    console.log(creature)
 })
