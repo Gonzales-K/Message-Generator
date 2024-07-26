@@ -9,15 +9,22 @@ body {
     place-items: center;
     place-content: center;
     min-height: 90vh;
+    color:antiquewhite;
+    background-color: black;
 }
 
 button {
     min-height: 50px;
     min-width: 200px;
     border-color: rgb(151, 67, 235);
-    border-radius: 10px;
+    border-radius: 50%;
     background-color: rgb(235, 213, 140);
     font-size: large;
     font-weight: bold;
     color: rgb(151, 67, 235);
+}
+
+#output {
+    margin-top: 2rem;
+    font-size: 2rem;
 }
